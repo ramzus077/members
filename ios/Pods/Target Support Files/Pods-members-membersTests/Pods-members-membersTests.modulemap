@@ -1,0 +1,6 @@
+module Pods_members_membersTests {
+  umbrella header "Pods-members-membersTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
