@@ -1,13 +1,8 @@
 import { CREATE_MEMBER_START, CREATE_MEMBER_SUCCESS, CREATE_MEMBER_FAILURE } from '../actions/action';
+import { Member } from '../types'
 
-interface Members {
-    id: number,
-    name: string,
-    age: number,
-    email: string
-}
 let initialState: {
-    members: Members[],
+    members: Member[],
     isLoading: boolean,
     error: string | null
 } = {
